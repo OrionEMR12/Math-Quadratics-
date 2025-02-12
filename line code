@@ -1,0 +1,9 @@
+yone=0
+ytwo=1
+xone=2
+xtwo=3
+xchange=xtwo-xone
+ychange=ytwo-yone
+slope=ychange/xchange
+yintercept=ytwo-(slope*xtwo)
+print("y="+str(slope)+"x+"+str(yintercept))
